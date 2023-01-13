@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>NEW PATIENT</title>
+<script>
+</script>
+<style>
+body{
+align:center;
+}
+#addDoc *{
+	padding: 18px 10px;
+	margin:3px;
+	width: 40%;
+	font-size: 22px;
+}
+</style>
+</head>
+<body>
+<h2 align=center >ADD NEW PATIENT</h2>
+<form align="center" id="addDoc" method="POST" action="CreatePatient">
+	<input type="text" name="ssn" placeholder="SSN"><br>
+	<input type="text" name="fname" placeholder="First Name"><br>
+	<input type="text" name="lname" placeholder="Last Name"><br>
+	<input type="number" name="centerid" placeholder="Center Id"><br>
+	<input type="text" name="docssn" placeholder="Doctor SSN"><br>
+	<select name="gender">
+		<option value="M">MALE</option>
+		<option value="F">FEMALE</option>
+	</select><br>	
+	
+	<input type="submit" value="ADD PATIENT">
+</form>
+</body>
+</html>
