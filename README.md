@@ -1,2 +1,2 @@
 # HealthCenter-Registration-System
-Database Systems Project
+A database systems project for health center authorities
