@@ -24,7 +24,7 @@ The key aspects of this project include:
 
 - Clone the repository
   ```bash
-  git clone https://github.com/meric2/Database-Management-System-for-Health-Centers-in-Ankara-Cankaya.git
+  git clone https://github.com/meric2/Database-Management-System-for-Health-Centers.git
   ```
 
 ## Usage
